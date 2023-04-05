@@ -1,4 +1,4 @@
-import Square from './Component/Square'
+import Board from './Component/Board'
 import './App.css'
 
 function App() {
@@ -7,11 +7,9 @@ function App() {
     <div className='card'>
       <h1>Hello would</h1>
 
-    <img src="/vite.svg" alt="logo are missing" />
+    <img className='logo' src="/vite.svg" alt="logo are missing" />
 
-    <Square name = "rohit" value = "123" />
-    <Square name = "saurabh"  />
-    <Square name = "akshay"  value = "321" />
+    <Board />
     </div>
   )
 }
