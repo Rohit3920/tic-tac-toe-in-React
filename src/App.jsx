@@ -1,15 +1,13 @@
 import Board from './Component/Board'
-import './App.css'
+import './styles.scss'
 
 function App() {
 
   return (
     <div className='card'>
-      <h1>Hello would</h1>
+      <h1> I`m web Developer ROHIT </h1>
 
-    <img className='logo' src="/vite.svg" alt="logo are missing" />
-
-    <Board />
+      <Board />
     </div>
   )
 }

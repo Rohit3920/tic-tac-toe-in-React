@@ -1,9 +1,7 @@
 
 
-export default function Square(){
+export default function Square({value}){
     return (
-        <div>
-            <h1>hello</h1>
-        </div>
+        <button type="button" className="square">{value}</button>
     )
 }
